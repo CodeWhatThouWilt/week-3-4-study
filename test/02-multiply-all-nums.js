@@ -6,7 +6,7 @@ chai.use(spies);
 
 import getProduct from '../problems/02-multiply-all-nums.js'
 
-describe("countLetters()", () => {
+describe("getProduct()", () => {
 	it(`Should return the product of all numbers`, () => {
 		assert.deepEqual(getProduct(5,7,8), 280);
         assert.deepEqual(getProduct(1), 1);

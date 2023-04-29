@@ -1,11 +1,16 @@
 /***********************************************************************
-Write a function getProduct(nums) that takes in any amount of numbers
-and returns the total product of all numbers.
+Write a function getKeys(obj) that takes in an object and 
+returns all the keys in an array
 
-Examples:
-console.log(getProduct(1,6,7,4,3)) // prints 504
-console.log(getProduct(8,2,4)) // prints 64
-console.log(getProduct(1)) // prints 1
+Example:
+const obj = {
+    this: "is",
+    a: "test",
+    for: "problem",
+    three: "."
+}
+console.log(getKeys(obj)) // prints ["this", "a", "for", "three"]
+
 
 
 ***********************************************************************/
@@ -17,7 +22,7 @@ console.log(getProduct(1)) // prints 1
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 let exportFunc;
 try {
-	exportFunc = getProduct;
+	exportFunc = getKeys;
 } catch (error) {
 	exportFunc = null;
 }
