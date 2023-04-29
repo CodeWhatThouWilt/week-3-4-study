@@ -5,7 +5,7 @@ import spies from "chai-spies";
 chai.use(spies);
 
 import findWinner from "../problems/00-scores-objects.js";
-console.log("####", findWinner)
+
 describe("findWinner()", () => {
 	it(`Should return an array of objects containing the keys:
             total (total score of game),
