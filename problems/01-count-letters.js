@@ -8,13 +8,13 @@ Example:
 
 const sentence = "Whats good. Out here winning. Doing coding stuff"
 console.log(countLetters(sentence))
-^^ Should print:
-{
-    w: 2, h: 2, a: 1, t: 3,
-    s: 2, g: 4, o: 5, d: 3,
-    u: 2, e: 2, r: 1, i: 4,
-    n: 5, c: 1, f: 2
-}
+// ^^ Should print:
+// {
+//     w: 2, h: 2, a: 1, t: 3,
+//     s: 2, g: 4, o: 5, d: 3,
+//     u: 2, e: 2, r: 1, i: 4,
+//     n: 5, c: 1, f: 2
+// }
 
 ***********************************************************************/
 

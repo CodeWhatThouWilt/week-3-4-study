@@ -17,13 +17,13 @@ const games = [
 ];
 
 console.log(findWinner(games));
-^^ should print:
-[
-    { total: 92, winner: 'team2', winningScore: 50, losingScore: 42 },
-    { total: 152, winner: "team2", winningScore: 80, losingScore: 72},
-    { total: 109, winner: "team1", winningScore: 57, losingScore: 52},
-    { total: 63, winner: "team1", winningScore: 33, losingScore: 30}
-]
+// ^^ should print:
+// [
+//     { total: 92, winner: 'team2', winningScore: 50, losingScore: 42 },
+//     { total: 152, winner: "team2", winningScore: 80, losingScore: 72},
+//     { total: 109, winner: "team1", winningScore: 57, losingScore: 52},
+//     { total: 63, winner: "team1", winningScore: 33, losingScore: 30}
+// ]
 
 ***********************************************************************/
 
