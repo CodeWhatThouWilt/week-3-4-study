@@ -1,3 +1,5 @@
+
+
 // With reduce
 const countLetters = (sentence) => {
     // Split the incoming string and lowercase it.

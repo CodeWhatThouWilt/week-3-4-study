@@ -1,3 +1,5 @@
+
+
 // With reduce
 const getProduct = (...nums) => {
     // Rest operator means nums is an array so we can

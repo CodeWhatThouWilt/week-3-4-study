@@ -1,3 +1,5 @@
+
+
 const findWinner = (arr) => {
     // By returning map we are returning the array that returns from
     // doing the map
